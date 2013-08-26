@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: "Bret Comnes's PSU TA Website"
 asides: false
 footer: false
 index: true
@@ -23,6 +23,4 @@ Hi, you have found my PSU website.  I am a graduate PhD student in the physics d
 
 #### bcomnes at pdx dot edu
 
-## Credentials:
-
-[CV](http://www.bret.io/assets/resume/Bret_Comnes_CV_Public.pdf)
+#### [CV](http://www.bret.io/assets/resume/Bret_Comnes_CV_Public.pdf)
