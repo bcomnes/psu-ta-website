@@ -1,0 +1,24 @@
+<!--Begin note "{{ page.title }}"-->
+<article class="note h-event row">
+	<header class="span2">
+	<p class="muted">
+		{% if content %}{% else %}<a rel="bookmark" class="u-url" href="{{ page.url }}">{% endif %}<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>{% if content %}{% else %}</a>{% endif %}</p>
+	</p>
+	{% if content %}{% else %}<p>{% include post-aside-webmention.html %}</p>{% endif %}
+	</header>
+<section class="span8">
+{% include post-logic-content.html %}
+{% if content %}{% include post-aside-webmention.html %}{% endif %}
+{% if content %}{% if page.syndicate %}{% include post-aside-syndicate.html %}{% endif %}{% endif %}
+</section>
+    {% if content %}
+<footer class="span2">
+	<div class="h-card p-author">
+	<p><img src="http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=96" class="img-circle u-photo" alt="A picture of me!"></p>
+	<p><a class="p-name fn muted" href="http://{{ site.url }}">{{ site.author }}</a></p>
+	<p><a class="u-url url muted" href="http://{{ site.url }}">{{ site.url }}<!-- This is here to force the hand of your MF2 parser --></a></p>
+	</div>
+</footer>
+	{% endif %}
+</article>
+<!--End Post "{{ page.title }}"-->

@@ -1,0 +1,28 @@
+    <meta charset="utf-8" />
+    <title>{% if paginator.page %}{% if paginator.page != 1 %}{{ paginator.page }} ~ {{ site.brand }}{% else %}{{ site.brand }}{% endif %}{% else %}{{ page.title }} ~ {{ site.brand }}{% endif %}</title>
+    {% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}
+    {% if page.url == "/index.html" %}{% if site.description %}<meta content="{{ site.description }}" />{% endif %}{% endif %}
+    {% if site.author %}<meta name="author" content="{{ site.author }}" />{% endif %}
+    <!--{% if site.author %}<link rel="author" href="humans.txt" />{% endif %}-->
+    <!--Twitter bootstrap For responsive stuff, I think-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google webmaster tools-->
+    <meta name="google-site-verification" content="-gd5D4qtAADYPG5Iwbl7Z1265Dt6fzf1H5BQItIbsps" />
+    <!--Bing webmaster tools-->
+	<meta name="msvalidate.01" content="8C03EAC159FD742794668D7663E86AED" />
+    <!--Pingbacks-->
+    <link rel="pingback" href="http://pingback.me/bcomnes/xmlrpc" />
+    <!--Webmentions-->
+    <link rel="http://webmention.org/" href="http://pingback.me/bcomnes/webmention" />
+    <!--Open ID-->
+    <link rel="openid.server" href="http://www.myopenid.com/server" />
+    <link rel="openid.delegate" href="http://bcomnes.myopenid.com/" />
+    <link rel="openid2.local_id" href="http://bcomnes.myopenid.com" />
+    <link rel="openid2.provider" href="http://www.myopenid.com/server" />
+    <!--<meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=bcomnes.myopenid.com" />-->
+	<!--IndieAuth-->
+	<link rel="indieauth" href="https://indieauth.com">
+    <!--Atom Feed-->
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml" />
+    <!--Google analytics-->
+    {% include head-ga.html %}

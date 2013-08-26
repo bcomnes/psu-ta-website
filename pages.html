@@ -1,0 +1,21 @@
+---
+layout: default
+title: All Pages 
+---
+<h1>{{ page.title }}</h1>
+<ul>
+
+{% for node in site.pages %}
+    {% if node.title != null%}
+        {% if page.url == node.url %}
+            <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
+        {% else %}
+            {% if node.title == 'Blog' and node.url contains 'page' %}
+            {% else %}
+            <li><a href="{{node.url}}">{{node.title}}</a></li>
+            {% endif %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+</ul>
