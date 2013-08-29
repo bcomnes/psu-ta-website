@@ -9,6 +9,10 @@ index: true
 
 Hi, you have found my PSU website.  I am a graduate PhD student in the physics department.  I also have a personal website located at [bret.io](http://www.bret.io/).
 
+## Currently:
+
+I am working at [PSU's OIT ARC](http://www.pdx.edu/arc/academic-and-research-computing) for the summer.  I can also be found in and around SRTC at times. 
+
 ## Classes I TA:
 *   None this summer :(  Hopefully the fall.
 
