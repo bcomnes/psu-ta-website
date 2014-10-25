@@ -2,7 +2,7 @@
 layout: default
 title: "Bret Comnes's PSU TA Website"
 asides: false
-footer: false
+footer: true
 index: true
 ---
 # Bret Comnes
