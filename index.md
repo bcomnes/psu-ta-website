@@ -18,7 +18,7 @@ Hi, you have found my PSU website.  I am a graduate student in the Physics Depar
 
 ## Office Hours:
 
-* Monday 2:00 - 3:00 PM FAB90 OBO.
+* Monday 2:00 - 3:00 PM FAB90 OBA.
 * Please email me if you intend to come.
 
 ## Contact me:
