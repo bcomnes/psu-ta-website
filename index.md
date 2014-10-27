@@ -36,7 +36,7 @@ Hi, you have found my PSU website.  I am a graduate student in the Physics Depar
   - Managing and running PSU's research servers.
   - Helped kick start PSU's latest Linux Research Cluster: Hydra.
   - Provide user support to fledgling research computing users.
-  - Started [ARC-Docs](http://arc-docs.readthedocs.org/en/latest/), a documentation website for uses of ARC uses.
+  - Started [ARC-Docs](http://arc-docs.readthedocs.org/en/latest/), a documentation website for uses of ARC resources.
 - Working feverishly on finishing my Masters Project for the Fall 2014 semester.
 
 ## Projects
